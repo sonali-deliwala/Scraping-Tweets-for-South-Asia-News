@@ -3,8 +3,8 @@
 import tweepy
 import pandas as pd
 import aspose.words as aw
-consumer_key = "cgiVDZThUhYrhgshdQwoAxekm"
-consumer_secret = "9KJwu5pxGM8iCWWLl3u8hRpDQWHvf0JKBYbFY2DBrtJLvGtazG"
+consumer_key = ""
+consumer_secret = ""
 auth = tweepy.AppAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth)
 doc = aw.Document()
